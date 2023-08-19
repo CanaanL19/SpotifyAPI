@@ -66,3 +66,18 @@
   position: absolute;
   top: 250px;
 }
+
+
+.PlayBox{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: 40%;
+  height: 55%;
+  background-color: #013011;
+  opacity: .8;
+  position: absolute;
+  right: 40px;
+  top: 400px;
+
+}

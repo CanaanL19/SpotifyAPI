@@ -1,6 +1,7 @@
 
 import './App.css';
 import {SearchBar} from "./Components/SearchBar/SearchBar";
+import {Playlist} from "./Components/Playlist/Playlist";
 
 
 function App() {
@@ -11,8 +12,12 @@ function App() {
       <div className="SearchBox">
         <SearchBar />
       </div>
-      </header>
-      
+      <div className="PlayBox">
+        <Playlist />
+      </div>
+
+
+      </header> 
   </div>
   );
 }
