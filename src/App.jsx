@@ -2,6 +2,7 @@
 import './App.css';
 import {SearchBar} from "./Components/SearchBar/SearchBar";
 import {Playlist} from "./Components/Playlist/Playlist";
+import { SearchResults } from './Components/SearchResults/SearchResults';
 
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div className="PlayBox">
         <Playlist />
+      </div>
+      <div className = "ResultBox">
+        <SearchResults />
       </div>
 
 

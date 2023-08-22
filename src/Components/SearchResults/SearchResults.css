@@ -1,0 +1,15 @@
+.resultBackground{
+    display: flex;
+    width: 100%;
+    align-items: left;
+}
+
+#resultTitle{
+    display: flex;
+    align-items: left;
+    height: 150%;
+    font-size: xx-large;
+    color: aliceblue;
+    position: absolute;
+    top:200px;
+}

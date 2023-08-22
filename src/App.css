@@ -79,5 +79,20 @@
   position: absolute;
   right: 40px;
   top: 400px;
+  border-radius: 10px;
 
+}
+
+.ResultBox{
+  display:flex;
+  align-items: left;
+  flex-direction: column;
+  background-color: #013011;
+  width: 45%;
+  height: 55%;
+  opacity: .8;
+  position: absolute;
+  left: 40px;
+  top: 400px;
+  border-radius: 10px;
 }
