@@ -7,9 +7,12 @@
 #resultTitle{
     display: flex;
     align-items: left;
-    height: 150%;
-    font-size: xx-large;
-    color: aliceblue;
-    position: absolute;
-    top:200px;
+    height: 70%;
+    font-size: 100%;
+    font-weight: 475;
+    color: rgb(246, 246, 246);
+    margin-top: 3%;
+    border-bottom: 3px solid white;
+    padding: 0;
+
 }

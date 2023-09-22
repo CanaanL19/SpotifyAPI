@@ -14,9 +14,9 @@
 }
 
 #saveList{
-    display: flex;
-    color: rgb(4, 4, 4);
-    background-color: rgb(255, 255, 255);
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(140, 21, 187);
     width: 150px;
     height: 50px;
     cursor: pointer;
@@ -25,8 +25,12 @@
     font-weight: bolder;
     position: absolute;
     bottom: 5px;
-    left: 100px;
+    left: 30%;
     font-size: 18px;
     border-style: solid;
     border-color: black;
+}
+
+#saveList:hover{
+    background-color: rgb(255, 106, 210);
 }

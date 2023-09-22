@@ -1,0 +1,18 @@
+#TrackName {
+    color: white;
+    font-size: 25px;
+}
+
+#TrackDetails {
+    color:white;
+    padding-bottom: 15pt;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    font-size: 18px;
+}
+
+.TrackInfo {
+    line-height: 1px;
+    text-align: leFt;
+    
+}

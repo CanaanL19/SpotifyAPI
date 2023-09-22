@@ -15,9 +15,9 @@
 
 
 .App-header{
-  background-color: #04521e;
+  background-color: #03501d;
   opacity: 0.8;
-  min-height: 100vh;
+  min-height: 125vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,7 +64,7 @@
   min-width: 200px;
   flex-direction: column;
   position: absolute;
-  top: 250px;
+  top: 150px;
 }
 
 
@@ -72,13 +72,13 @@
   display: flex;
   align-items: left;
   flex-direction: column;
-  width: 40%;
-  height: 55%;
+  width: 25%;
+  height: 60%;
   background-color: #013011;
   opacity: .8;
   position: absolute;
-  right: 40px;
-  top: 400px;
+  right: 15%;
+  top: 300px;
   border-radius: 10px;
 
 }
@@ -88,11 +88,11 @@
   align-items: left;
   flex-direction: column;
   background-color: #013011;
-  width: 45%;
-  height: 55%;
+  width: 25%;
+  height: 60%;
   opacity: .8;
   position: absolute;
-  left: 40px;
-  top: 400px;
+  left: 15%;
+  top: 300px;
   border-radius: 10px;
 }
