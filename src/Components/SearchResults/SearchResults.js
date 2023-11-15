@@ -3,6 +3,10 @@ import './SearchResults.css';
 import { SearchBar } from "../SearchBar/SearchBar";
 
 
+
+
+
+
 export function SearchResults() {
     return(
         <div>

@@ -32,7 +32,7 @@ export function SearchBar({details}) {
     
     };
 
-    const handleClick = (e) => {
+    const handleClick = () => {
         
         setSearchShow(input);
         
@@ -42,27 +42,30 @@ export function SearchBar({details}) {
     function trackList() {
         if (searchShow) {
             return(
+                <div id="trackLists">
                 <handleScroll>
                     <TrackList filteredSongs ={filteredSongs} />
                 </handleScroll>
+                </div>
             );
         }
     }
-
-   
 
 
 
 
     return(
+        
       <section>
         <div className="search-Input">
             <input type="search" placeholder="Enter song title here.." value={input}
             onChange={handleChange}/>
             <button onclick={handleClick}>Search</button>
-            {trackList()}
+            
         </div>
+       {trackList()}
       </section>
     );
+
     }
 
